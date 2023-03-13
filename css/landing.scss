@@ -1,0 +1,43 @@
+@import 'common';
+
+.hero-section {
+  .container {
+    padding-top: 100px;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 117px;
+    letter-spacing: 0.03em;
+  }
+
+  .hero-section-bottom {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 495px;
+  }
+
+  .hero-section-bottom-label {
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+  }
+
+  .hero-background-container {
+    position: absolute;
+    top: 363px;
+    padding: 0 35px;
+    left: 0;
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 621px;
+    object-fit: cover;
+  }
+}

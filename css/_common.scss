@@ -1,0 +1,43 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $background-color;
+  font-family: $main-font;
+}
+
+.container {
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: white;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+  }
+
+  nav {
+    display: flex;
+    gap: 50px;
+  }
+
+  .nav-link {
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: $text-color;
+    text-decoration: none;
+  }
+}
