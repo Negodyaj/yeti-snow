@@ -32,6 +32,14 @@ body {
   margin-right: auto;
 }
 
+.common-section-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  font-family: "Open Sans", sans-serif;
+}
+
 header {
   background-color: white;
 }
@@ -92,4 +100,33 @@ header .nav-link {
   height: 621px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.about-section {
+  margin-top: 120px;
+}
+
+.catalog-section {
+  margin-top: 190px;
+}
+.catalog-section .categories-grid {
+  padding: 0 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 103px 35px;
+  grid-auto-rows: 49.01vw;
+}
+.catalog-section .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.catalog-section .grid-item.wide {
+  grid-column: span 2;
+}
+.catalog-section .grid-item.aligned-to-bottom {
+  align-self: end;
+}
+.catalog-section img {
+  width: 100%;
 }/*# sourceMappingURL=landing.css.map */

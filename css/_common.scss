@@ -18,6 +18,14 @@ body {
   margin-right: auto;
 }
 
+.common-section-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  font-family: $secondary-font;
+}
+
 header {
   background-color: white;
   
