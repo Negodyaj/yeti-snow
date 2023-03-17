@@ -78,3 +78,28 @@
     width: 100%;
   }
 }
+
+.carousel-container {
+  display: flex;
+}
+
+.carousel-controls {
+  width: 300px;
+  flex-shrink: 0;
+    background-color: antiquewhite;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+}
