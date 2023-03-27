@@ -53,6 +53,11 @@ header nav {
   display: flex;
   gap: 50px;
 }
+@media (min-width: 901px) and (max-width: 1440px) {
+  header nav {
+    gap: 40px;
+  }
+}
 header .nav-link {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -60,4 +65,43 @@ header .nav-link {
   letter-spacing: 0.03em;
   color: black;
   text-decoration: none;
+}
+
+@media (min-width: 901px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+@media (min-width: 1441px) and (max-width: 1650px) {
+  .container {
+    max-width: 1370px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 900px) {
+  header img {
+    width: 80px;
+  }
+  header .container {
+    height: 80px;
+  }
+  header nav {
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    right: 0;
+    top: 80px;
+    z-index: 5;
+    gap: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  header nav.visible {
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=product.css.map */
